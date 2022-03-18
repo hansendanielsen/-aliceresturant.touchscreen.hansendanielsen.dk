@@ -1,0 +1,124 @@
+/* Fonts
+Dunbar Tall Book
+font-family: dunbar-tall, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+
+Dunbar Text Regular
+font-family: dunbar-text, sans-serif;
+font-weight: 500;
+font-style: normal;
+*/
+
+/* Colors */
+:root {
+  --green: #DFE2E0;
+  --brown: #918978;
+  --black: #0A100D;
+  --redligth: #A22C29;
+  --reddark: #902923;
+  --white: #F6F5F4;
+}
+
+  h1 {
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h2 {
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.8rem;
+    margin-bottom: 0.8rem;
+  }
+
+  h3 {
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+  }
+
+  p {
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    background-color: var(--white);
+  }
+
+  .line {
+    border-bottom: 2px solid red;
+    border-color: var(--brown);
+  }
+
+
+  .line2 {
+    border-bottom: 2px solid red;
+    border-color: var(--black);
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
+
+  .line3 {
+    border-bottom: 1px solid red;
+    border-color: var(--brown);
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
+
+  .line4 {
+    border-bottom: 0px solid red;
+    border-color: var(--brown);
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
+
+  header {
+    text-align: center;
+    background-color: var(--white);
+    padding: 2%;
+  }
+
+  #bestilling {
+    background-color: var(--reddark);
+    color: var(--white);
+    text-align: right;
+    min-height: 150px;
+    padding: 5%;
+  }
+
+  #indhold {
+    background-color: var(--green);
+    padding: 5%;
+  }
+
+  .navn2 {
+    text-align: center;
+    padding: 2%;
+  }
+
+  button {
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    width: 50px;
+    height: 30px;
+    border-color: var(--black);
+    border-radius: 10%;
+    margin-left: 5rem;
+  }
